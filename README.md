@@ -69,7 +69,6 @@ cache: This operator allows you to view the cached version of a page. For exampl
  
 #DNS Enumeration
 
-
 ##DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
@@ -77,15 +76,14 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/f6148fbc-727a-41ac-900d-d8eb8e3764e0)
 
 
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
+
+![Screenshot 2025-03-15 022519](https://github.com/user-attachments/assets/21754b13-7733-43cf-8f27-fa2708acbea2)
+
 
 Get the host’s addresses (A record).
 Get the namservers (threaded).
@@ -101,12 +99,15 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+![Screenshot 2025-03-15 022753](https://github.com/user-attachments/assets/9c957214-dd5e-485d-9488-61e9c3d9815b)
+
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
 
+![Screenshot 2025-03-15 022819](https://github.com/user-attachments/assets/50c251b7-32b1-41a8-86e6-d39a44f5d5ee)
 
 #Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
@@ -114,8 +115,7 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  
-  
+ ![telnet](https://github.com/user-attachments/assets/c1797c6b-9b79-4199-9779-f7defd1e634a)
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
@@ -123,6 +123,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/a85cfb43-fd4f-4a4b-a613-ecc93b15f8c4)
 
 
 ## RESULT:
